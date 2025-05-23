@@ -58,8 +58,12 @@ const Hero = () => {
       
       <div className="container mx-auto px-6 text-center text-white relative z-10">
         <div className="mb-8 animate-fade-in">
-          <div className="w-24 h-24 mx-auto mb-6 bg-white rounded-full flex items-center justify-center shadow-2xl">
-            <span className="text-2xl font-bold text-black">GC</span>
+          <div className="w-24 h-24 mx-auto mb-6 bg-white rounded-full flex items-center justify-center shadow-2xl p-4">
+            <img 
+              src="/lovable-uploads/b1d88ea3-1e28-45b9-97a9-ce4a2800ed7f.png" 
+              alt="Greecode Logo" 
+              className="w-full h-full object-contain"
+            />
           </div>
           <h1 className="text-5xl md:text-7xl font-bold mb-4 bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
             Greecode
