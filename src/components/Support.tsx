@@ -42,17 +42,17 @@ const Support = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
           {donationTiers.map((tier, index) => (
             <Card key={index} className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 rounded-2xl">
-              <CardContent className="p-8 text-center">
+              <CardContent className="p-8 text-center h-full flex flex-col">
                 <div className="text-3xl font-bold text-gray-900 mb-4">
                   {tier.amount}
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-3">
                   {tier.title}
                 </h3>
-                <p className="text-gray-600 mb-6">
+                <p className="text-gray-600 mb-6 flex-grow">
                   {tier.description}
                 </p>
-                <Button className="w-full bg-gray-900 hover:bg-gray-800 text-white rounded-full">
+                <Button className="w-full bg-gray-900 hover:bg-gray-800 text-white rounded-full mt-auto">
                   Donate {tier.amount}
                 </Button>
               </CardContent>

@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { ExternalLink } from "lucide-react";
@@ -64,7 +63,7 @@ const AboutGreecode = () => {
             <Button className="bg-white text-black hover:bg-gray-200 px-8 py-3 rounded-full">
               Start Free Trial
             </Button>
-            <Button variant="outline" className="border-white text-white hover:bg-white hover:text-black px-8 py-3 rounded-full">
+            <Button className="bg-gray-700 text-white hover:bg-gray-600 border border-gray-600 px-8 py-3 rounded-full">
               Watch Demo
             </Button>
           </div>
