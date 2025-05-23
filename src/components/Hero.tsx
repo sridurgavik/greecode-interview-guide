@@ -75,7 +75,7 @@ const Hero = () => {
         </div>
         
         <Button 
-          onClick={() => scrollToSection('how-it-works')}
+          onClick={() => scrollToSection('features')}
           className="bg-white text-black hover:bg-gray-200 text-lg px-8 py-4 rounded-full transition-all duration-300 hover:scale-105 shadow-lg"
         >
           Get Started
